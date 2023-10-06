@@ -1,0 +1,119 @@
+body{
+    font-family:  'Roboto', sans-serif;
+    background-color:  hsl(234, 29%, 20%);
+    align-items: center;
+}
+.grid{
+    width: 22%;
+    height: 340px;
+    margin-top: 200px ;
+    margin-bottom: 200px;
+    margin-left: 500px;
+    margin-right:460px ;
+    align-items: center;
+    background-color:  hsl(0, 0%, 100%);
+    border: 40px solid  hsl(0, 0%, 100%);
+    border-radius: 25px;
+}
+.big-text{
+    margin: 15px;
+}
+img.image{
+    margin-top: -10px;
+    width: 17%;
+}
+h1.big-title{
+ font-size: 40px;
+ color: hsl(234, 29%, 20%);
+}
+span.small-text{
+    font-size: 13px;
+    width: 100%;
+    color:  hsl(235, 18%, 26%);
+    font-family:  'Roboto', sans-serif;
+    word-spacing: 1px;
+}
+span.smaller-text{
+    color: hsl(234, 29%, 20%);
+    font-style: bold;
+    font-weight: 700;
+
+}
+h3.email-txt{
+    color: black;
+}
+.btn-blue{
+    width: 100%;
+    padding: 5px 50px;
+    border-radius: 5px;
+    background-color:   hsl(234, 29%, 20%);
+    color: white;
+    border:  inset 0.2px;
+    border-style: hidden;
+    cursor: pointer;
+    box-shadow: outset 10px -30px 30px hsl(340, 83%, 61%);
+    margin-top: 20px;
+   
+}
+.btn-blue:hover{
+    background-color: hsl(4, 100%, 67%) ;
+    box-shadow: inset 10px -20px 20px hsl(340, 83%, 61%) , 7px 15px  7px hsl(340, 100%, 92%);
+   
+  
+   
+}
+h3.btn-text{
+    font-size: 12px;
+    width: 105%;
+    margin-right: 10px;
+    text-align: center;
+}
+@media only screen and (max-width: 627px) and (min-width: 200px)   {
+    body{
+     background-color:white
+     ;
+     margin-left: 0px;
+    }
+    
+     .grid{
+         grid-template-columns: 1fr;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        margin-right: 200px;
+        margin-left: 0px;
+        height: 600px;
+        width: 80%;
+        border-radius: 2px;
+     }
+     img.image{
+         margin-top: 60px;
+         width: 25%;
+     }
+     .btn-blue{
+         margin-top: 200px;
+     }
+ }
+@media only screen and (max-width: 950px) and (min-width: 628px)   {
+   body{
+    background-color:none
+    ;
+   }
+   
+    .grid{
+        grid-template-columns: 1fr;
+       margin-top: -10px;
+       margin-bottom: -5px;
+       margin-right: 200px;
+       margin-left: 200px;
+       height: 600px;
+       width: 40%;
+       border-radius: 2px;
+    }
+    img.image{
+        margin-top: 60px;
+        width: 25%;
+    }
+    .btn-blue{
+        margin-top: 200px;
+    }
+}
